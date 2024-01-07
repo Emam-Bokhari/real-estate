@@ -119,8 +119,6 @@ body{
     margin:0 auto;
     position:absolute;
     bottom:15px;
-    display: flex;
-    align-items: center;
     left: 50%; /* Center horizontally */
     transform: translateX(-50%);
     padding-left:2rem;
@@ -140,33 +138,34 @@ body{
 
 @media  (min-width:375px) {
     .see-all-listings-container{
-        bottom:140px;
-        border:2px solid red;
+        display:none;
     }
 }
 
 @media  (min-width:576px) {
     .see-all-listings-container{
         bottom:140px;
-        border:2px solid green;
+        min-width: 550px;
+        display: inline;
     }
 }
 
 @media  (min-width:768px) {
     .see-all-listings-container{
-        bottom:155px;
+        bottom:140px;
+        min-width: 700px;
     }
 }
 
 @media (min-width: 992px){
     .see-all-listings-container{
-        bottom:155px; 
+        bottom:140px; 
     }
 }
 
 @media (min-width: 1200px){
     .see-all-listings-container{
-        bottom:155px;
+        bottom:140px;
     }
 }
 
