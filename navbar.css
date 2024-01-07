@@ -112,3 +112,66 @@ body{
 
 /* Hero section text style end */
 
+.see-all-listings-container{
+    background-color:white;
+    min-width:800px;
+    height:100px;
+    margin:0 auto;
+    position:absolute;
+    bottom:15px;
+    display: flex;
+    align-items: center;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    padding-left:2rem;
+}
+
+.see-all-listings-container__anchor-link{
+    color:#000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.see-all-listings-container__arrow{
+    margin-left:.5rem;
+    color:#FFAC12;
+}
+
+
+@media  (min-width:375px) {
+    .see-all-listings-container{
+        bottom:140px;
+        border:2px solid red;
+    }
+}
+
+@media  (min-width:576px) {
+    .see-all-listings-container{
+        bottom:140px;
+        border:2px solid green;
+    }
+}
+
+@media  (min-width:768px) {
+    .see-all-listings-container{
+        bottom:155px;
+    }
+}
+
+@media (min-width: 992px){
+    .see-all-listings-container{
+        bottom:155px; 
+    }
+}
+
+@media (min-width: 1200px){
+    .see-all-listings-container{
+        bottom:155px;
+    }
+}
+
+@media (min-width: 1400px){
+    .see-all-listings-container{
+        bottom:155px;
+    }
+}
